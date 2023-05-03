@@ -1,0 +1,21 @@
+#header-image-menu{
+  top: 10px;
+  position: relative;
+}
+
+#header-image-menu img{
+  width: 100%;
+  height: 400px;
+  margin: none;
+  padding: none;
+}
+
+.grid-container {
+  display: grid;
+}
+
+ .grid-image{
+  text-align: center;
+  padding: 25px;
+ 
+}

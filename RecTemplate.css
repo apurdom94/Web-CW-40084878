@@ -1,0 +1,84 @@
+h1{
+    text-align: center;
+}
+
+h2{
+    font-size: 15px;
+    text-decoration-line: underline;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+#header-image-menu{
+    top: 10px;
+    position: relative;
+}
+
+#header-image-menu img{
+    width: 100%;
+    height: 200px;
+    margin: none;
+    padding: none;
+}
+
+
+.RecipieDetails{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+   display: flex;
+   flex-flow: row wrap;
+  justify-content: left;
+}
+
+.RecipieDetails div{
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.Content{
+    width: 60%;
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+  }
+  
+  .FoodPicture{
+    width: 40%;
+    float: right;
+    padding: 15px;
+    border: 1px solid red;
+  }
+
+  button {
+      border: none;
+      font-size: 15px;
+  }
+
+ .TimeHov:hover:before {
+    content:"30 Mins";
+  }
+  
+  .TimeHov:hover span {
+    display: none;
+  }
+
+  .LevelHov:hover:before {
+    content:"Level: 2";
+  }
+  
+  .LevelHov:hover span {
+    display: none;
+  }
+
+  button{
+      height: 60px; 
+      padding: 10px;
+      margin-top: 10px;
+      font-family: 'Times New Roman', Times, serif;
+  }
